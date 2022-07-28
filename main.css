@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  align-items: center;
+  height: 60px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  width: 130px;
+}
+
+.header-left i {
+  margin: 10px;
+}
+
+.header-left img {
+  width: 100%;
+}
+.header-mid {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+.search-bar {
+  width: 100%;
+  position: relative;
+}
+.header-mid input {
+  height: 35px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.keyboard {
+  position: absolute;
+  top: 13px;
+  right: 0;
+}
+
+.header-mid-bar {
+  display: flex;
+  width: 100%;
+}
+
+.search-btn {
+  width: 80px;
+}
+.mic {
+  padding: 20px;
+}
