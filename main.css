@@ -56,3 +56,81 @@ body {
 .mic {
   padding: 20px;
 }
+
+.header-right {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+.header-right i {
+  margin: 0 10px;
+}
+.header-right i:last-child {
+  font-size: 30px;
+}
+/* side메뉴 */
+.side-menu {
+  width: 300px;
+  height: 100vh;
+  font-size: 14px;
+}
+.side-menu div {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.side-menu i {
+  font-size: 25px;
+  margin: 5px 25px 0 16px;
+}
+
+/* type nav 메뉴 */
+.type-nav {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  justify-content: center;
+}
+.type-nav div {
+  font-size: 14px;
+  background: #eee;
+  border-radius: 25px;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+.content {
+  width: 330px;
+}
+.content img {
+  width: 100%;
+}
+.main-container {
+  display: flex;
+}
+.main {
+  width: 100%;
+}
+.content-title {
+  display: flex;
+}
+.content-title p {
+  margin: 0;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(177, 177, 161, 0.799);
+}
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 30px;
+}
