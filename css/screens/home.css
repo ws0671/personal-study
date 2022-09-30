@@ -20,3 +20,57 @@
   bottom: 8px;
   width: 20%;
 }
+
+.home-main {
+  background-color: rgb(173, 169, 169);
+}
+
+.goal-bar {
+  background-color: white;
+  display: flex;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid lightgray;
+}
+.goal-bar h3 {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.goal-bar__column div {
+  font-weight: 600;
+}
+
+.goal-bar__column:first-child {
+  width: 40%;
+}
+
+.goal-bar__column:nth-child(2) {
+  width: 20%;
+  position: relative;
+}
+
+.goal-bar__column:nth-child(2) i {
+  color: lightgray;
+}
+
+.goal-bar__column:last-child {
+  width: 40%;
+}
+
+.goal-bar .boundary {
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background-color: lightgrey;
+}
+
+.goal-bar .boundary:nth-child(3) {
+  left: 0;
+  bottom: 0;
+}
+
+.goal-bar .boundary:last-child {
+  right: 0;
+  bottom: 0;
+}
