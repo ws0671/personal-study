@@ -1,0 +1,22 @@
+.big-screen {
+  margin: 20px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.big-screen__column:first-child {
+  width: 20%;
+}
+.big-screen__column:nth-child(2) {
+  width: 60%;
+  font-size: 50px;
+}
+.big-screen__column:last-child {
+  display: flex;
+  position: relative;
+  bottom: 8px;
+  width: 20%;
+}

@@ -1,0 +1,11 @@
+@import "reset.css";
+
+/* components */
+@import "components/status-bar.css";
+
+/* screens */
+@import "screens/home.css";
+
+body {
+  background-color: rgba(137, 43, 226, 0.653);
+}
