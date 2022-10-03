@@ -3,10 +3,11 @@
 
 /* components */
 @import "components/status-bar.css";
+@import "components/inner-status-bar.css";
 
 /* screens */
 @import "screens/home.css";
 
 body {
-  background-color: rgba(137, 43, 226, 0.653);
+  background-color: var(--main-color);
 }

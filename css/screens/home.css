@@ -22,7 +22,7 @@
 }
 
 .home-main {
-  background-color: rgb(173, 169, 169);
+  background-color: rgb(225, 221, 221);
 }
 
 .goal-bar {
@@ -157,5 +157,30 @@
 
 .ad-box__column:last-child span {
   opacity: 0.5;
+  font-size: 12px;
+}
+
+.gorup-box {
+  margin-top: 10px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: var(--box-border);
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.empty-box-img {
+  width: 30%;
+  opacity: 0.6;
+  margin-bottom: 20px;
+}
+
+.box-content span {
   font-size: 12px;
 }
