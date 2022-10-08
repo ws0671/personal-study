@@ -160,9 +160,9 @@
   font-size: 12px;
 }
 
-.gorup-box {
+.group-box {
   margin-top: 10px;
-  height: 250px;
+  /* height: 250px; */
   background-color: #fff;
   border-radius: var(--box-border);
 }
@@ -173,6 +173,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  padding-bottom: 30px;
 }
 
 .empty-box-img {
@@ -183,4 +184,111 @@
 
 .box-content span {
   font-size: 12px;
+}
+
+.group-box__content {
+  padding-bottom: 15px;
+}
+
+.group-box__line {
+  border-top: 1px dashed rgba(0, 0, 0, 0.5);
+  height: 30px;
+  margin: 0 20px;
+}
+
+.group-box__line:first-child {
+  margin-top: 15px;
+}
+.group-box__line:nth-child(4) {
+  height: 20px;
+}
+.group-box__line--bot {
+  border-top: 1px black solid;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.group-box__report {
+  margin-left: 20px;
+  display: flex;
+}
+
+.group-box__box {
+  width: 130px;
+  background-color: lightgray;
+  height: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.group-box__box i {
+  color: #fff;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.group-box__box-container span {
+  font-size: 13px;
+  color: lightgray;
+}
+.group-box__box-element:first-child {
+  margin-top: 15px;
+}
+
+.group-box__box-element {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.group-box__circle-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-box__circle {
+  width: 110px;
+  height: 110px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+
+.group-box__section-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 5px;
+  position: relative;
+  padding-bottom: 35px;
+}
+
+.group-box__section {
+}
+
+.section-title {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.section-data {
+  font-size: 18px;
+}
+
+.group-box__section .boundary {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  background-color: lightgrey;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
 }
