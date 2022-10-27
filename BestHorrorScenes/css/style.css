@@ -3,6 +3,9 @@ body {
 }
 
 .main-left {
+  position: sticky;
+  left: 0;
+  top: 0;
   background-color: #f0f0f0;
   width: 40vw;
   height: 100vh;
@@ -43,6 +46,79 @@ body {
 
 .main {
   width: 60vw;
+  background-color: #e7473c;
+}
+.main .content {
+  height: 1000vh;
+}
+
+.main-header {
+  width: 100%;
+  position: sticky;
+  text-align: center;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: rgba(231, 71, 60, 0.9);
+  border-bottom: 1px black solid;
+}
+.main-header > div {
+  font-size: 18px;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+  text-decoration: underline;
+}
+
+.content__box {
+  padding: 50px;
+}
+.content__box .content__title {
+  display: flex;
+  justify-content: space-between;
+}
+.content__box .content__title span {
+  color: white;
+  align-self: flex-end;
+}
+.content__box h1 {
+  color: white;
+  font-size: 60px;
+}
+.content__box .content__image {
+  width: 700px;
+  height: 400px;
+  background-color: black;
+  display: block;
+  margin: 30px auto;
+}
+.content__box svg {
+  width: 20px;
+}
+.content__box circle {
+  fill: wheat;
+  stroke: #000;
+  stroke-width: 6px;
+}
+.content__box .rating {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.content__box .comment {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.content__box .comment span:last-child {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
