@@ -90,11 +90,12 @@ body {
     font-size: 60px;
   }
   .content__image {
-    width: 700px;
+    width: 100%;
     height: 400px;
     background-color: black;
     display: block;
     margin: 30px auto;
+    position: relative;
   }
   svg {
     width: 20px;
@@ -116,5 +117,43 @@ body {
     span:last-child {
       text-decoration: underline;
     }
+  }
+  .rate-number {
+    position: absolute;
+    top: 30px;
+    left: -5px;
+    z-index: 3;
+    color: white;
+    background-color: #d8261a;
+    padding: 12px;
+    font-size: 22px;
+  }
+  .vote-number {
+    position: absolute;
+    z-index: 3;
+    left: 100%;
+    background-color: #d8261a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+      padding: 10px 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+  .main-left {
+    position: static;
+    width: 100%;
+  }
+  .main {
+    position: static;
+    width: 100%;
   }
 }
